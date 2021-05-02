@@ -1,0 +1,126 @@
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 auto;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+  background-color: #232323;
+  list-style-type: none;
+}
+
+.nav_link {
+  color: white;
+  text-decoration: none;
+  padding: 12px 50px;
+}
+
+.nav_link:hover {
+  background-color: #54be90;
+  color: #444444;
+}
+
+.hero {
+  background-image: url(aneta.jpg.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ebebeb;
+  flex-direction: column;
+}
+
+.services {
+  height: 300px;
+  background-color: #232323;
+}
+
+.myskills {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.myportfolio {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: #54be90;
+}
+
+.aboutme {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: #ebebeb;
+}
+
+.findmehere {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: #232323;
+}
+
+.contactme {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: #54be90;
+}
+
+footer {
+  height: 300px;
+}
+
+.myskills_h2 {
+  color: #54be90;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.myportfolio_h2 {
+  color: white;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.aboutme_h2 {
+  color: #232323;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.findmehere_h2 {
+  color: white;
+  padding-top: 30px;
+}
+
+.contactme_h2 {
+  color: white;
+  font-size: 50px;
+  padding-top: 50px;
+}
